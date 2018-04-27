@@ -8,8 +8,6 @@ import UserProfile from "./components/UserProfile";
 import {connect} from "react-redux";
 
 export const App = (props) => {
-    console.log("App Store is ", props)
-
     return (
         <Router>
             <div>
